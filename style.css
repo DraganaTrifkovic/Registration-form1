@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    background-color: black;
+}
+.wrapper{
+    max-width: 500px;
+    background-color: rgb(231, 231, 240);
+    margin: 100px auto;
+    padding: 20px;
+    
+}
+    
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: rgb(27, 50, 119);
+    text-align: left;
+
+}
+.wrapper .form{
+    width: 500px;
+    
+}
+.wrapper .form .input-field{
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.wrapper .form .input-field label{
+    width: 100px;
+    color: rgb(27, 50, 119);
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+
+.wrapper .form .input-field input{
+    border: 1px solid rgb(146, 161, 216);
+    font-size: 15px;
+    padding: 8px 70px;
+    
+    
+}
+.wrapper .form .input-field .custom-select{
+    width: 100px;
+    height: 30px;
+    margin-left: 67px;
+    border: 1px solid rgb(146, 161, 216);
+   
+
+}
+
+.wrapper .form .input-field .btn{
+    width:200px ;
+    padding: 8px 10px;
+    margin: auto;
+    background-color: rgb(21, 104, 21);
+    color: white;
+   
+
+}
